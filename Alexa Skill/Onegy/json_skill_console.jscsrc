@@ -1,0 +1,149 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "tarifa inteligente",
+            "intents": [
+                {
+                    "name": "AddExpense",
+                    "slots": [
+                        {
+                            "name": "Amount",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "Category",
+                            "type": "CATEGORIES"
+                        }
+                    ],
+                    "samples": [
+                        "Tengo {Amount} para {Category}",
+                        "Yo pagué {Amount} en {Category}",
+                        "Añade {Amount} en {Category}",
+                        "{Amount} en {Category}",
+                        "Pagué {Amount} en {Category}",
+                        "Para {Category} pagué {Amount}",
+                        "{Amount} pagué para {Category}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help",
+                        "help me"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetExpense",
+                    "slots": [
+                        {
+                            "name": "Category",
+                            "type": "CATEGORIES"
+                        }
+                    ],
+                    "samples": [
+                        "Dame el precio mínimo para cargar mi {Category}",
+                        "Quiero saber el precio más económico para la tarifa {Category}",
+                        "Dame el precio más económico para cargar mi {Category}",
+                        "Dime el precio más económico para la tarifa {Category}",
+                        "Dame el precio más económico para la tarifa {Category}",
+                        "Comprueba el precio minimo para cargar mi {Category}",
+                        "Dime la hora y el precio más economico de hoy para cargar mi {Category}",
+                        "Mirame el precio más económico para la tarifa {Category}"
+                    ]
+                },
+                {
+                    "name": "DeleteExpense",
+                    "slots": [
+                        {
+                            "name": "Category",
+                            "type": "CATEGORIES"
+                        }
+                    ],
+                    "samples": [
+                        "Borra el precio para {Category}",
+                        "Quiero borrar el precio actual para {Category}"
+                    ]
+                },
+                {
+                    "name": "UpdateExpense",
+                    "slots": [
+                        {
+                            "name": "Amount",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "Category",
+                            "type": "CATEGORIES"
+                        }
+                    ],
+                    "samples": [
+                        "Actualiza {Amount} euros para {Category}",
+                        "Yo gasté un extra de {Amount} euros en {Category}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "CATEGORIES",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "coche electrico",
+                                "synonyms": [
+                                    "coche"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "normal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "discriminacion"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nocturna"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

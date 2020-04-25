@@ -1,39 +1,41 @@
 ![Final_Project_head_github](https://user-images.githubusercontent.com/45542785/77224267-377c0e00-6b64-11ea-8055-5b2a035b4b1e.jpg)
 
-# Final Project - Your Energy+
+# Final Project - Onegy - Electricity price analyzer 
 
-This project helps you save energy at home just by asking Alexa one question, this is amazing!
+Onegy is an electricity tariff analyser that helps you to save an average of 400€ on your electricity bill, no matter which energy operator you have. 
+The solution is Onegy.energy, the app that lets you know what time is cheaper to program the appliances and save up to 50% on our electricity bill. 
 
-This Alexa skill uses the price of your electricity bill to recommend you when to charge your electric car so you can save up to 70% on your electricity bill. Turn on the oven, washing machine or air conditioning at the cheapest hours and save on your electricity bill!
+I have also developed an Alexa Skill that you can ask "Alexa, what time is cheaper to put the washing machine", "Alexa, what time is cheaper to charge my electric car", and Alexa will answer you with the cheapest time so you can save the maximum of your money and program your electronics, appliances or even your electric car.
 
-## _Status_
-This a beta version 0.1 of my final project at IRON HACK.
+Check out the official https://onegy.energy website for an online demo with the current electric rate schedules.
 
-## _Getting Started_
+GIF
 
-It's important for you to know that this project is my final project. A project in which I have put everything on my side to make it work perfectly, to make it the best of me, to show that I have learned. So, if you want to contribute something, help me with some tip or have any doubt, don't hesitate and write me, we can always talk about it!
+## Interesting facts and inspiration 
+The price of electric energy increases every year, only in January 2019 its value increased by 25% compared to 2018. In January 2020 the new fixed price was approved, which varies according to the time of day and day of the week. With three time bands, cheap, medium (20% more expensive than the previous one) and expensive (50% more expensive than the cheap one).
 
-## _Prerequisites_ 💻
+The solution is Onegy.energy, the app that lets you know what time is cheaper to program the washing machine, dryer and even the oven to save up to 50% on our electricity rates.
 
-You can see the requirements.txt file to get a better idea of what you will need, but a little above that I can tell you that I have learned to use the following:
+## _Requirements_ 💻
 
-Pandas, Regex, Requests, Numpy, BeautifulSoup, Flask, Postgre...
+You can create a _env_, install the libraries that you will find in the 'requirements.txt' file, clone the whole project and use the data to check what I have done with this project. To execute it you will have to open in a console the file 'app.py'
 
-## _How to use it_ 🔧
+Alexa Skill has other more complex requirements so you can try it, but if you are an Alexa Skills developer you will know what I'm talking about. In the Alexa Skill folder you have everything you need to make a complete serverless deploy in AWS!
 
-If you want to use it, you can create a _env_, install the libraries that you will find in the `requirements.txt` file, clone the whole project and use the dataset 'postgre' to check what I have done with this project. To execute it you will have to open in a console the file `main.py`
+And if you are just a curious person but don't want anything technical, you can go to http://onegy.energy and press the button Try it!
 
 ## _Built With_ 
 
-A lot of work, implementation of improvements and above all, with a lot of love ❤️
+Python, Pandas, Requests, BeautifulSoup4, Flask, Numpy, Colorama, Node JS, HTML, CSS, Java Script and AWS. But above all and on top of that, a lot of work, implementation of improvements and above all, with a lot of love ❤
    
 ## _Authors_
 
-The author of this project is Borja Uría (@borjauria), a student at the Data Analytics bootcamp at Iron Hack Madrid.
+The author is Borja Uría, and this is his Final Proyect of the Data Analytics Bootcamp at Iron Hack Madrid 2019/2020.
 
 ## _License_
 
-This project is licensed under the IH License.
+This project is licensed under the MIT License.
 
 ## _Contact info_ 💌
-Write me on [Linkedin](https://www.linkedin.com/in/borjauria/)!
+If you are hiring Data Analysts or Data Scientists
+I'm all you need, write me through my [Linkedin](https://www.linkedin.com/in/borjauria/)!

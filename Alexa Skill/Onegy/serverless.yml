@@ -1,0 +1,54 @@
+service: alexa-home
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: ${opt:stage, self:custom.defaultStage}
+  profile: ${self:custom.profiles.${self:provider.stage}}
+  region: us-east-1
+  environment:
+    DYNAMODB_TABLE_EXPENSES: ${self:service}-tarifas-${opt:stage, self:provider.stage}
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.DYNAMODB_TABLE_EXPENSES}"
+custom:
+  defaultStage: dev
+  profiles:
+    dev: serverless
+    prod: serverless
+  dynamodb:
+      start:
+        migrate: true
+resources:
+  Resources:
+    DynamoDbTableExpenses:
+      Type: 'AWS::DynamoDB::Table'
+      DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: id
+            AttributeType: S
+          
+        KeySchema:
+          -
+            AttributeName: id
+            KeyType: HASH
+           
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: ${self:provider.environment.DYNAMODB_TABLE_EXPENSES}
+functions:
+  addExpense:
+    handler: handler.handler
+    events:
+      - alexaSkill
