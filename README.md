@@ -2,7 +2,7 @@
 
 # Onegy - Electricity price analyzer - Final Proyect of the Data Analytics Bootcamp at Iron Hack Madrid 2019/2020
 
-Onegy is an electricity fare analyser that helps you to save an average of 400€ on your electricity bill, no matter which energy operator you have. 
+Onegy is an electricity fare analyser that helps you to save an average of 750€ on your electricity bill, no matter which energy operator you have. 
 The solution is Onegy.energy, the app that lets you know what time is cheaper to program the appliances and save up to 50% on our electricity bill. 
 
 I have also developed an Alexa Skill that you can ask "Alexa, what time is cheaper to put the washing machine", "Alexa, what time is cheaper to charge my electric car", and Alexa will answer you with the cheapest time so you can save the maximum of your money and program your electronics, appliances or even your electric car.
