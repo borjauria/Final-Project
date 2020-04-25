@@ -25,7 +25,7 @@ Alexa Skill has other more complex requirements so you can try it, but if you ar
 
 And if you are just a curious person but don't want anything technical, you can go to http://onegy.energy and press the button Try it!
 
-## _Folder structure 📁 
+## _Folder structure_ 📁 
 <img width="450" alt="Screenshot 2020-04-25 at 03 21 21" src="https://user-images.githubusercontent.com/45542785/80267918-dc2dc600-86a3-11ea-995f-0adbd59a1fed.png">
         
 ## _Built With_ 🚀
