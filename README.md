@@ -26,32 +26,24 @@ Alexa Skill has other more complex requirements so you can try it, but if you ar
 And if you are just a curious person but don't want anything technical, you can go to http://onegy.energy and press the button Try it!
 
 ## _Folder structure 📁 
-└── Onegy
-    ├── __trash__
-    ├── .gitignore
-    ├── .env
-    ├── README.md
-    ├── requirements.txt
-    ├── Alexa Skill
-    ├── Flask
-    │   ├── app.py
-    │   ├── static
-    │   └── templates 
-    ├── notebooks
-    ├── Scripts
-    │   ├── app.py
-    │   ├── webscraping_flask.p
-    │   └── webscraping 
-    ├── notebooks
-    │   ├── Acquisition_1.ipynb
-    │   ├── Acquisition_2_to_json.ipynb
-    │   └── Acquisition_3.ipynb
-    └── data
-        ├── raw
-        ├── processed
-        └── results
+├── Alexa\ Skill
+│   ├── Onegy
+│   └── node_modules
+├── Flask
+│   └── www
+├── README.md
+├── Scripts
+│   ├── __pycache__
+│   ├── app.py
+│   ├── webscraping.py
+│   └── webscraping_flask.py
+├── __trash__
+├── notebooks
+│   ├── Acquisition_1.ipynb
+│   ├── Acquisition_2_to_json.ipynb
+│   └── Acquisition_3.ipynb
+└── requirements.txt
         
-
 ## _Built With_ 🚀
 
 Python, Pandas, Requests, BeautifulSoup4, Flask, Numpy, Colorama, Node JS, HTML, CSS, Java Script and AWS. But above all and on top of that, a lot of work, implementation of improvements and above all, with a lot of love ❤
