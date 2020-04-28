@@ -42,9 +42,9 @@ The author is Borja Uría, and this is his Final Proyect of the Data Analytics B
 
 ## _Next steps_
 
-Make a fare comparator.
-Include the fares of the Spanish electricity companies.
-Calculating a household's future spending with time series.
+        - Make a fare comparator.
+        - Include the fares of the Spanish electricity companies.
+        - Calculating a household's future spending with time series.
 
 ## _License_
 
