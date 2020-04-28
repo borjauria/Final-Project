@@ -18,7 +18,7 @@ The solution is Onegy.energy, the app that lets you know what time is cheaper to
 
 ## _Requirements_ 💻
 
-You can create a _env_, install the libraries that you will find in the 'requirements.txt' file, clone the whole project and use the data to check what I have done with this project. To execute it you will have to open in a console the file 'app.py'
+You can create a _env_, install the libraries that you will find in the 'requirements.txt' file, clone the whole project and use the data to check what I have done with this project. To execute it you will have to open in a console the file 'webscraping_flask.py'.
 
 ![Terminal](https://user-images.githubusercontent.com/45542785/80265632-7ab42a00-8698-11ea-9287-33d4056656cb.gif)
 Alexa Skill has other more complex requirements so you can try it, but if you are an Alexa Skills developer you will know what I'm talking about. In the Alexa Skill folder you have everything you need to make a complete serverless deploy in AWS!
