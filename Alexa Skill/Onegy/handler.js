@@ -257,6 +257,7 @@ const handlers = {
         this.response.speak('¡Adiós y gracias por confiar en mi para ahorrar tu tarifa de la luz!');
         this.emit(':responseReady');
     },
+    
     'AMAZON.StopIntent': function() {
         this.response.speak('¡Nos vemos pronto, y gracias por confiar en mi para ahorrar tu tarifa de la luz!');
         this.emit(':responseReady');
