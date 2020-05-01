@@ -7,7 +7,7 @@ The solution is Onegy.energy, the app that lets you know what time is cheaper to
 
 I have also developed an Alexa Skill that you can ask "Alexa, what time is cheaper to put the washing machine", "Alexa, what time is cheaper to charge my electric car", and Alexa will answer you with the cheapest time so you can save the maximum of your money and program your electronics, appliances or even your electric car.
 
-Check out the official https://onegy.energy website for an online demo with the current electric rate schedules.
+Check out the official http://onegy.energy website for an online demo with the current electric rate schedules.
 
 ![onegy_screen_web](https://user-images.githubusercontent.com/45542785/80265196-104eba00-8697-11ea-89b9-d8748c0d6658.gif)
 
